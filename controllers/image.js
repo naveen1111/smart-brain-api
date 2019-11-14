@@ -8,10 +8,10 @@ const handleApiCall = (req, res) => {
     .predict(Clarifai.FACE_DETECT_MODEL, req.body.input)
     .then(data => {res.json(data);
     })
-    .catch(err => console.log(100))
+    .catch(err => res.status(400).json('unable to work with API'))
 };
 
-// .catch(err => res.status(400).json('unable to work with API'))
+
 
 const handleImage = (req, res, db) => {
     const {id} = req.body;
