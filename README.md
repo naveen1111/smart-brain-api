@@ -1,4 +1,4 @@
-# ---------------------------SMART-BRAIN BACKEND SERVER-----------------------
+# -------------------SMART-BRAIN BACKEND SERVER-------------------
 
-PostgreSQL database is used for this server. This server is hosted on Heroku.
+PostgreSQL database is used for this server. Also, this server is hosted on Heroku.
 
